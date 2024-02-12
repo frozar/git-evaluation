@@ -2,6 +2,26 @@
 
 Ce projet consiste à créer un programme qui permet de réaliser les 4 opérations arithmétiques élémentaires (`+`, `-`, `*` et `/`) entre deux nombres. 
 
+- [Minitrice](#minitrice)
+  - [Introduction](#introduction)
+  - [Objectifs](#objectifs)
+  - [Le fond](#le-fond)
+    - [Scénario 1 : Utilisation interactive](#scénario-1--utilisation-interactive)
+    - [Utilisation en lisant STDIN](#utilisation-en-lisant-stdin)
+      - [Scénario 2 : STDIN : utilisation de echo](#scénario-2--stdin--utilisation-de-echo)
+      - [Scénario 3 : STDIN : utilisation de `cat`](#scénario-3--stdin--utilisation-de-cat)
+    - [Gestion d'erreurs](#gestion-derreurs)
+      - [Erreur de syntaxe](#erreur-de-syntaxe)
+      - [Division par zéro](#division-par-zéro)
+  - [La forme](#la-forme)
+  - [Le rendu](#le-rendu)
+  - [Gource](#gource)
+  - [Le barème](#le-barème)
+  - [Astuces](#astuces)
+    - [Windowsien](#windowsien)
+    - [Langage de programmation](#langage-de-programmation)
+
+
 ## Introduction
 
 Ce projet sert de support pour l'évaluation du module gestionnaire de version doit être réalisé en groupes.
