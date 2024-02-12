@@ -91,9 +91,15 @@ Ce scénario décrit un exemple d'utilisation du programme à réaliser. Vous no
 
 ### Utilisation en lisant STDIN
 
-Dans le but d'automatiser l'utilisation du programme `main`, il doit pouvoir lire sur l'entrée standard `STDIN`. Dans la tradition d'UNIX, tout programme devrait présenter une interface *texte*, l'interface universelle, lui permettant de recevoir ses entrées depuis la sortie d'un autre programme. Ainsi, le programme peut être composé avec d'autres programmes pour en fabriquer de nouveaux.
+Dans le but d'automatiser l'utilisation du programme `main`, il doit pouvoir lire sur l'entrée standard `STDIN`. Dans la tradition d'UNIX, tout programme devrait présenter une interface *texte*, l'interface universelle, lui permettant de recevoir ses entrées depuis la sortie d'un autre programme sous forme de chaîne de caractères. Ainsi, le programme peut être composé avec d'autres programmes pour en fabriquer de nouveaux. Pour composer deux programmes, il faut utiliser [un pipe (ou tube)](https://en.wikipedia.org/wiki/Pipeline_(Unix)), représenté par le caractère `|`. Par exemple :
 
-Il y a généralement 2 utilitaires pour envoyer des données à travers un pipe : `echo` et `cat`.
+~~~bash
+programme1 | programme2 | programme3
+~~~
+
+`programme3` lit son entrée depuis la sortie de `programme2`, et `programme2` lit son entrée depuis la sortie de `programme1`. On peut dire que `programme1 | programme2 | programme3 ` est un nouveau programme, *composé* à partir de 3 autres programmes.
+
+Il y a généralement 2 utilitaires (programmes) pour envoyer des données à travers un pipe : `echo` et `cat`.
 
 #### Scénario 2 : STDIN : utilisation de echo
 
