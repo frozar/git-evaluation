@@ -20,6 +20,7 @@ Ce projet consiste à créer un programme qui permet de réaliser les 4 opérati
   - [Astuces](#astuces)
     - [Windowsien](#windowsien)
     - [Langage de programmation](#langage-de-programmation)
+  - [Liens utiles](#liens-utiles)
 
 
 ## Introduction
@@ -91,7 +92,7 @@ Ce scénario décrit un exemple d'utilisation du programme à réaliser. Vous no
 
 ### Utilisation en lisant STDIN
 
-Dans le but d'automatiser l'utilisation du programme `main`, il doit pouvoir lire sur l'entrée standard `STDIN`. Dans la tradition d'UNIX, tout programme devrait présenter une interface *texte*, l'interface universelle, lui permettant de recevoir ses entrées depuis la sortie d'un autre programme sous forme de chaîne de caractères. Ainsi, le programme peut être composé avec d'autres programmes pour en fabriquer de nouveaux. Pour composer deux programmes, il faut utiliser [un pipe (ou tube)](https://en.wikipedia.org/wiki/Pipeline_(Unix)), représenté par le caractère `|`. Par exemple :
+Dans le but d'automatiser l'utilisation du programme `main`, il doit pouvoir lire sur l'entrée standard `STDIN`. Dans [la tradition d'UNIX](https://fr.wikipedia.org/wiki/Philosophie_d%27Unix), tout programme devrait présenter une interface *texte*, l'interface universelle, lui permettant de recevoir ses entrées depuis la sortie d'un autre programme sous forme de chaîne de caractères. Ainsi, le programme peut être composé avec d'autres programmes pour en fabriquer de nouveaux. Pour composer deux programmes, il faut utiliser [un pipe (ou tube)](https://en.wikipedia.org/wiki/Pipeline_(Unix)), représenté par le caractère `|`. Par exemple :
 
 ~~~bash
 programme1 | programme2 | programme3
@@ -250,3 +251,6 @@ Pour les utilisateur·ices de Windows, je vous recommande d'installer WSL2 pour 
 ### Langage de programmation
 
 Bien que je vous laisse le choix du langage de programmation, je vous recommande vivement d'utiliser Python. Python vous permettra de lire l'entrée avec la function `input()`, d'évaluer une ligne de calcul la function `eval` et de gérer les erreurs avec un bloc `try/except`. Vous pouvez aussi facilement savoir si le pipe est utilisé ou pas avec un programme python grâce à [ce lien](https://stackoverflow.com/questions/33871836/find-out-if-there-is-input-from-a-pipe-or-not-in-python).
+
+
+## Liens utiles
