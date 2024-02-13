@@ -248,6 +248,12 @@ Les exécutables `minitrice` et `generator` doivenr être présents à la racine
 
 Dans un dossier `results` à la racine de votre dépôt, vous stockerez les résultats de votre programme `minitrice` sur les fichiers contenu dans le dossier `test`. Les noms de fichiers contenant les résultats correspondront au nom de fichier d'origine suffixé par `-result`, par exemple `00-addition-result.txt`.
 
+**Date de rendu du projet** : Vous devez m'envoyer un mail contenant l'adresse URL de votre dépôt public GitHub avant vendredi 23 février, 23h59. Vous perdrez un point par jour de retard.
+
+Mon adresse mail : fabien@flaxib.re
+
+<ins>Remarque :</ins> Je vous encourage vivement de mettre vos collègues en copie du mail de rendu.
+
 ## Gource
 
 Pour installer `gource` sous linux, vous pouvez simplement utiliser la commande suivante :
@@ -283,8 +289,7 @@ Assurez-vous que votre dépôt et votre vidéo sont accessibles par n'importe qu
  - Gestion et explication des erreurs gérées par `generator` : 1 point **(bonus)**,
  - Exécution correcte de votre programme sur un grand fichier (environ 10000 lignes) qui n'est pas fournis : 1 point,
  - Chaque message commit doit être court (< 70 caractères) et décrire correctement le travail réaliser par le commit. Si la décription doit être plus longue, utilisez le corps du message de commit : 2 points,
- - Pour chaque progression sur votre projet, l'utilisation des *Pull Request* sur Github avec des descriptions explicites du contenu de la *Pull Request* : 4 points,
- - Un historique git linéaire : utilisation systèmatique de rebase avant de merger une *Pull Request* : 1 point,
+ - Pour chaque progression sur votre projet, l'utilisation des *Pull Request* sur Github avec des descriptions explicites du contenu de la *Pull Request* : 5 points,
  - Publication de la vidéo générée par la commande [gource](https://gource.io/) correspondante à votre activité sur ce dépôt : 2 points.
 
 ## Astuces
