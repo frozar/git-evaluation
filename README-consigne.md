@@ -32,25 +32,19 @@ Ce projet sert de support pour l'évaluation du module gestionnaire de version e
 Voici la liste des groupes :
 
  - Groupe 1 :
-   - Dimitri Ratane
-   - Nicolas Maillot
-   - Mathilde Vingadessin
-   - Luc Maillet
+   - Anita Rakotoarisoa Tantelimaminirina
+   - Saroumaia Asmahani
+   - Joe Rakotomahefa
+   - Nathan Riviere
  - Groupe 2 :
-   - Lenaic Honorine
-   - Alexandre Tam-Hui
-   - Pauline Moncoiffe-Brisset
-   - Beriche Chahalane
+   - Timothee Souris
+   - Anais Riviere
+   - Bastien Velia
+   - Alexandre Ramalingom
  - Groupe 3 :
-   - Olivier Grondin
-   - Nandraina Razafindraibe
-   - Camille Javel
-   - Julien Lenormand
- - Groupe 4 :
-   - Lucas Xitra
-   - Aina Rakotonaivo
-   - Miguel Pourny
-   - Dewen Bidois
+   - Jean-Philippe Moutouvirin
+   - Kilian Beurard
+   - Kenny Adrien
 
 ## Objectifs
 
