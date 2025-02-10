@@ -231,9 +231,9 @@ Pour l'affichage du résultat de calcul, il doit être arrondi à 2 chiffres apr
 
 Vous devez faire un dépôt github public, avec un nom de dépôt de la forme `git-evaluation_groupe-<numéro>` en fonction de votre numéro de groupe. Par exemple pour le groupe 3, le nom du dépôt est `git-evaluation_groupe-3`.
 
-Vous devez rédiger un `README.md` qui contiendra les secitons suivantes :
- - Installation : Ce qu'il faut faire pour pouvoir lancer votre programme. Si des logiciels tiers (compilateur) doivent être installer, les procédures d'installation doivent être décrite ici. Il en est de même pour les bibliothèques,  
- - Exécution : Un exemple d'utilisation de votre programme, avec la sortie attendu, comme ce qui fait dans ce document,  
+Vous devez rédiger un `README.md` qui contiendra les sections suivantes :
+ - Installation : Ce qu'il faut faire pour pouvoir lancer votre programme. Si des logiciels tiers (compilateur par exemple) doivent être installer, les procédures d'installation doivent être décrite ici. Il en est de même pour les bibliothèques,  
+ - Exécution : Un exemple d'utilisation de votre programme, avec la sortie attendue, comme ce qui fait dans ce document,  
  - Générator : Description de la gestion de ou des erreurs que vous avez mis en place sur le programme `generator`. La ou les procédures pour reproduire le ou les erreurs doivent être renseignées,  
  - Publication : Le lien Youtube de votre vidéo gource associée à l'activité sur votre dépôt (plus de renseignements dans la section suivante),  
  - Liens utiles : Une liste de ressoruces en ligne qui vous a été utile pour réussir ce projet. Cette liste doit être sous la même forme que la section [Liens utiles](#liens-utiles) de ce document.  
@@ -242,9 +242,9 @@ Les exécutables `minitrice` et `generator` doivenr être présents à la racine
 
 Dans un dossier `results` à la racine de votre dépôt, vous stockerez les résultats de votre programme `minitrice` sur les fichiers contenu dans le dossier `test`. Les noms de fichiers contenant les résultats correspondront au nom de fichier d'origine suffixé par `-result`, par exemple `00-addition-result.txt`.
 
-**Date de rendu du projet** : Vous devez m'envoyer un mail contenant l'adresse URL de votre dépôt public GitHub avant vendredi 23 février, 23h59. Vous perdrez un point par jour de retard.
+**Date de rendu du projet** : Vous devez m'envoyer un mail contenant l'adresse URL de votre dépôt public GitHub avant jeudi 27 février 2025, 23h59. Vous perdrez un point par jour de retard.
 
-Mon adresse mail : fabien@flaxib.re
+Mon adresse mail : fabien.rozar@gmail.com
 
 <ins>Remarque :</ins> Je vous encourage vivement de mettre vos collègues en copie du mail de rendu.
 
