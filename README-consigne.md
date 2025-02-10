@@ -274,17 +274,19 @@ Assurez-vous que votre dépôt et votre vidéo sont accessibles par n'importe qu
 
 ## Le barème
 
- - La rédaction du `README.md` conforme à la consigne : 2 points,
- - Respect des noms de programmes et fichier pour les travaux réalisés : 2 points,
- - Exécution correcte de votre programme sur les fichiers du répertoire `test` :  2 points,
+ - La rédaction du `README.md` conforme à la consigne : 1 points,
+ - Respect des noms de programmes et fichiers pour les travaux réalisés : 2 points,
+ - Exécution correcte de votre programme sur les fichiers du répertoire `test` :  1 points,
  - Présence du répertoire `results` contenant les différents fichiers de résultat avec le contenu attendu : 1 points,
- - Exécution correcte de votre programme sur les scénarios dans ce document : 2 points;
+ - Exécution correcte de votre programme sur les scénarios dans ce document : 1 points;
  - La création du programme `generator` et son exécution correcte : 1 point,
  - Gestion et explication des erreurs gérées par `generator` : 1 point **(bonus)**,
  - Exécution correcte de votre programme sur un grand fichier (environ 10000 lignes) qui n'est pas fournis : 1 point,
- - Chaque message commit doit être court (< 70 caractères) et décrire correctement le travail réaliser par le commit. Si la décription doit être plus longue, utilisez le corps du message de commit : 2 points,
- - Pour chaque progression sur votre projet, l'utilisation des *Pull Request* sur Github avec des descriptions explicites du contenu de la *Pull Request* : 5 points,
- - Publication de la vidéo générée par la commande [gource](https://gource.io/) correspondante à votre activité sur ce dépôt : 2 points.
+ - Chaque message commit doit avoir un sujet court (< 70 caractères) et doit décrire correctement le travail réaliser par le commit. Si votre décription est plus longue, utilisez le corps du message de commit : 2 points,
+ - Votre historique de commit doit être similaire à l'historique produit par le [workshop 3](https://github.com/frozar/git-workshop-3/blob/main/img/historique-final.png) : 3 points,
+ - Pour chaque progression sur votre projet, l'utilisation des *Pull Request* sur Github avec des descriptions explicites du contenu de la *Pull Request* : 3 points,
+ - Création d'un Github Actions pour automatiser les tests de minitrice sur les fichiers de tests : 2 point,
+ - Publication de la vidéo générée par l'utilitaire [gource](https://gource.io/) correspondante à votre activité sur ce dépôt : 2 points.
 
 ## Astuces
 
