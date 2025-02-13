@@ -285,7 +285,7 @@ Assurez-vous que votre dépôt et votre vidéo sont accessibles par n'importe qu
  - Chaque message commit doit avoir un sujet court (< 70 caractères) et doit décrire correctement le travail réaliser par le commit. Si votre décription est plus longue, utilisez le corps du message de commit : 2 points,
  - Votre historique de commit doit être similaire à l'historique produit par le [workshop 3](https://github.com/frozar/git-workshop-3/blob/main/img/historique-final.png) : 3 points,
  - Pour chaque progression sur votre projet, l'utilisation des *Pull Request* sur Github avec des descriptions explicites du contenu de la *Pull Request* : 3 points,
- - Création d'un Github Actions pour automatiser les tests de minitrice sur les fichiers de tests : 2 point,
+ - Création d'un Github Actions pour automatiser les tests de minitrice sur les fichiers de tests. Les tests doivent vérifier que le programme s'exécute correctement et que les résultats de calcul sont corrects : 2 point,
  - Publication de la vidéo générée par l'utilitaire [gource](https://gource.io/) correspondante à votre activité sur ce dépôt : 2 points.
 
 ## Astuces
