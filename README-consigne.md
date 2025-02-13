@@ -238,7 +238,7 @@ Vous devez rédiger un `README.md` qui contiendra les sections suivantes :
  - Publication : Le lien Youtube de votre vidéo gource associée à l'activité sur votre dépôt (plus de renseignements dans la section suivante),  
  - Liens utiles : Une liste de ressoruces en ligne qui vous a été utile pour réussir ce projet. Cette liste doit être sous la même forme que la section [Liens utiles](#liens-utiles) de ce document.  
 
-Les exécutables `minitrice` et `generator` doivenr être présents à la racine de votre dépôt. Dans le cas où ces programmes sont générés, à la fin de leur génération, ces programmes doivent être présents à la racine de votre dépôt.
+Les exécutables `minitrice` et `generator` doivent être présents à la racine de votre dépôt. Dans le cas où ces programmes sont générés, à la fin de leur génération, ces programmes doivent être présents à la racine de votre dépôt.
 
 Dans un dossier `results` à la racine de votre dépôt, vous stockerez les résultats de votre programme `minitrice` sur les fichiers contenu dans le dossier `test`. Les noms de fichiers contenant les résultats correspondront au nom de fichier d'origine suffixé par `-result`, par exemple `00-addition-result.txt`.
 
