@@ -36,4 +36,5 @@ Exemple d'execution du fichier "generator.py" avec "minitrice.py"
 ```
 
 ### Publication
+https://youtu.be/QJj5j2jYu5k
 
