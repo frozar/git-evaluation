@@ -37,5 +37,5 @@ while True:
             print("\n Fin des calculs :)")
         sys.exit(0)
     except Exception as e:
-        print(f"Erreur: {e}")
+        print(e)
         sys.exit(1)
