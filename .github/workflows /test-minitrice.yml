@@ -26,8 +26,8 @@ jobs:
             test_file="test/${i}-*.txt"
             result_file="results/${i}-*.txt"
 
-            # Utiliser awk pour arrondir les valeurs à l'entier avant de les comparer
-            if ! diff -q <(sort <(awk '{print int($1)}' $test_file)) <(sort <(awk '{print int($1)}' $result_file)); then
+            # Utiliser awk pour convertir les valeurs en flottant avec la partie décimale
+            if ! diff -q <(sort <(awk '{printf "%.1f\n", $1}' $test_file)) <(sort <(awk '{printf "%.1f\n", $1}' $result_file)); then
               echo "Les résultats ne correspondent pas pour le fichier $i"
               diff $test_file $result_file
               exit 1
@@ -35,4 +35,3 @@ jobs:
           done
 
           echo "Tous les résultats sont corrects !"
-    
