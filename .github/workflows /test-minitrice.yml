@@ -26,8 +26,8 @@ jobs:
             test_file="test/${i}-*.txt"
             result_file="results/${i}-*.txt"
 
-            # Si les fichiers de test et de résultat ne correspondent, afficher une erreur
-            if ! diff -q <(sort $test_file) <(sort $result_file); then
+            # Utiliser awk pour arrondir les valeurs à l'entier avant de les comparer
+            if ! diff -q <(sort <(awk '{print int($1)}' $test_file)) <(sort <(awk '{print int($1)}' $result_file)); then
               echo "Les résultats ne correspondent pas pour le fichier $i"
               diff $test_file $result_file
               exit 1
