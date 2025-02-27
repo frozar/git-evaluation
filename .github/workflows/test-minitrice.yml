@@ -27,7 +27,7 @@ jobs:
             result_file="results/${i}-*.txt"
 
             # Utiliser awk pour convertir les valeurs en flottant avec la partie décimale
-            if ! diff -q <(sort <(awk '{printf "%.1f\n", $1}' $test_file)) <(sort <(awk '{printf "%.1f\n", $1}' $result_file)); then
+            if ! diff -q <(sort <(awk '{print $0}' $test_file | bc)) <(sort <(awk '{printf "%.1f\n", $1}' $result_file)); then
               echo "Les résultats ne correspondent pas pour le fichier $i"
               diff $test_file $result_file
               exit 1
