@@ -1,0 +1,37 @@
+name: Test Minitrice
+
+on:
+  push:
+    branches: [main]
+  pull_request: 
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: faire les tests
+        run: |
+          # Comparer chaque fichier de test avec son fichier de résultat correspondant
+          for i in {00..10}; do
+            test_file="test/${i}-*.txt"
+            result_file="results/${i}-*.txt"
+
+            # Utiliser awk pour convertir les valeurs en flottant avec la partie décimale
+            if ! diff -q <(sort <(awk '{printf "%.1f\n", $1}' $test_file)) <(sort <(awk '{printf "%.1f\n", $1}' $result_file)); then
+              echo "Les résultats ne correspondent pas pour le fichier $i"
+              diff $test_file $result_file
+              exit 1
+            fi
+          done
+
+          echo "Tous les résultats sont corrects !"
