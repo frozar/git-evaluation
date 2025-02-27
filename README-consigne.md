@@ -17,11 +17,23 @@ Exemple de gestion d'erreur :
 ```bash
 1. $ py minitrice.py
 2. > 20/0
-3. Division par zéro
-4. >
-5. Fin des calculs :)
+3. Erreur: Division par zéro
 ```
 ### Generator
+Le générateur génère aléatoire un nombre de d'opérations fournis lors de l'appelle a la fonction. On a fait en sorte de gérer l'erreur de la division par 0 en limitant le choix des nombres de 1 à 1000. Pour les erreurs possibles de syntaxe tout est géré depuis le fichier minitrice.
+
+Exemple d'execution du fichier "generator.py"
+```bash
+1. $ py generator.py 2
+2. 242 * 250
+3. 752 * 876
+```
+Exemple d'execution du fichier "generator.py" avec "minitrice.py"
+```bash
+1. $ py generator.py 2 | py minitrice.py
+2. 665
+3. 327
+```
 
 ### Publication
 
