@@ -236,7 +236,7 @@ Vous devez rédiger un `README.md` qui contiendra les sections suivantes :
  - Exécution : Un exemple d'utilisation de votre programme, avec la sortie attendue, comme ce qui fait dans ce document,  
  - Générator : Description de la gestion de ou des erreurs que vous avez mis en place sur le programme `generator`. La ou les procédures pour reproduire le ou les erreurs doivent être renseignées,  
  - Publication : Le lien Youtube de votre vidéo gource associée à l'activité sur votre dépôt (plus de renseignements dans la section suivante),  
- - Liens utiles : Une liste de ressoruces en ligne qui vous a été utile pour réussir ce projet. Cette liste doit être sous la même forme que la section [Liens utiles](#liens-utiles) de ce document.  
+ - Liens utiles : Une liste de ressources en ligne qui vous a été utile pour réussir ce projet. Cette liste doit être sous la même forme que la section [Liens utiles](#liens-utiles) de ce document.  
 
 Les exécutables `minitrice` et `generator` doivent être présents à la racine de votre dépôt. Dans le cas où ces programmes sont générés, à la fin de leur génération, ces programmes doivent être présents à la racine de votre dépôt.
 
@@ -278,7 +278,7 @@ Assurez-vous que votre dépôt et votre vidéo sont accessibles par n'importe qu
  - Respect des noms de programmes et fichiers pour les travaux réalisés : 2 points,
  - Exécution correcte de votre programme sur les fichiers du répertoire `test` :  1 points,
  - Présence du répertoire `results` contenant les différents fichiers de résultat avec le contenu attendu : 1 points,
- - Exécution correcte de votre programme sur les scénarios dans ce document : 1 points;
+ - Exécution correcte de votre programme sur les scénarios dans ce document : 1 points,
  - La création du programme `generator` et son exécution correcte : 1 point,
  - Gestion et explication des erreurs gérées par `generator` : 1 point **(bonus)**,
  - Exécution correcte de votre programme sur un grand fichier (environ 10000 lignes) qui n'est pas fournis : 1 point,
