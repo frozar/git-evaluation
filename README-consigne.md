@@ -231,6 +231,14 @@ Pour l'affichage du résultat de calcul, il doit être arrondi à 2 chiffres apr
 
 Vous devez faire un dépôt github public, avec un nom de dépôt de la forme `git-evaluation_groupe-<numéro>` en fonction de votre numéro de groupe. Par exemple pour le groupe 3, le nom du dépôt est `git-evaluation_groupe-3`.
 
+> [!TIP]
+> Si vous souhaitez forker le dépôt actuel pour bénéficier des fichiers qui y sont présents, n'utilisez pas la fonctionnalité `Fork` de github : cela vous évitera de devoir faire attention à chaque Merge Request que vous allez créer. A la place, 1 membre du groupe doit suivre les qui suivent pour mettre à jour la branche `main` de votre dépôt :  
+> 1. Une fois que vous avez créé votre dépôt github, clonez ce dépôt, `git clone git@github.com:frozar/git-evaluation.git`, et entrez dans le dossier associé au dépôt, `cd git-evaluation`,
+> 2. Mettez à jour votre alias `origin` pour pointer vers le dépôt que vous avez créé sur github. Si votre nom d'utilisateur est `jeremy` et que vous êtes dans le groupe 3, la commande est `git remote set-url origin git@github.com:jeremy/git-evaluation_groupe-3.git`,
+> 3. Configurez votre branche `main` pour qu'elle soit poussée vers votre dépôt : `git push -u origin main`.
+> 
+> Une fois qu'un membre de l'équipe à réaliser ces étapes, les autres membres peuvent cloner le dépôt du groupe, ou si le dépôt a déjà été cloné, mettre à jour leur branche `main` locale.  
+
 Vous devez rédiger un `README.md` qui contiendra les sections suivantes :
  - Installation : Ce qu'il faut faire pour pouvoir lancer votre programme. Si des logiciels tiers (compilateur par exemple) doivent être installer, les procédures d'installation doivent être décrite ici. Il en est de même pour les bibliothèques,  
  - Exécution : Un exemple d'utilisation de votre programme, avec la sortie attendue, comme ce qui fait dans ce document,  
