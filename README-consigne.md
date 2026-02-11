@@ -32,19 +32,18 @@ Ce projet sert de support pour l'évaluation du module gestionnaire de version e
 Voici la liste des groupes :
 
  - Groupe 1 :
-   - Anita Rakotoarisoa Tantelimaminirina
-   - Saroumaia Asmahani
-   - Joe Rakotomahefa
-   - Nathan Riviere
+   - Adrien Lemettre
+   - Thibault Chaumont
+   - Yanis Vingadassamy
+   - Thomas Comorassamy
  - Groupe 2 :
-   - Timothee Souris
-   - Anais Riviere
-   - Bastien Velia
-   - Alexandre Ramalingom
+   - Aya Meziani
+   - Teddy Greze
+   - Aifeze Simba
  - Groupe 3 :
-   - Jean-Philippe Moutouvirin
-   - Kilian Beurard
-   - Kenny Adrien
+   - Matthieu Hoarau
+   - Fanirininony Andriatombontsoa
+   - Rodolphe Prevot
 
 ## Objectifs
 
