@@ -236,17 +236,17 @@ Vous devez faire un dépôt github public, avec un nom de dépôt de la forme `g
 > Si vous avez "forké" ce dépôt, `frozar/git-evaluation`, dépuis Github pour créer votre dépôt de travail, vous devriez supprimer le lien de parenté avec le dépôt d'origine pour éviter des désagréments lors de la création de Merge Request.  
 
 Vous devez rédiger un `README.md` qui contiendra les sections suivantes :
- - Installation : Ce qu'il faut faire pour pouvoir lancer votre programme. Si des logiciels tiers (compilateur par exemple) doivent être installer, les procédures d'installation doivent être décrite ici. Il en est de même pour les bibliothèques,  
+ - Installation : Ce qu'il faut faire pour pouvoir lancer votre programme. Si des logiciels tiers (compilateur par exemple) doivent être installé, les procédures d'installation doivent être décrite ici. Il en est de même pour les bibliothèques,  
  - Exécution : Un exemple d'utilisation de votre programme, avec la sortie attendue, comme ce qui fait dans ce document,  
- - Générator : Description de la gestion de ou des erreurs que vous avez mis en place sur le programme `generator`. La ou les procédures pour reproduire le ou les erreurs doivent être renseignées,  
+ - Générator : Description de la gestion des erreurs que vous avez mis en place sur le programme `generator`. La ou les procédures pour reproduire le ou les erreurs doivent être renseignées,  
  - Publication : Le lien Youtube de votre vidéo gource associée à l'activité sur votre dépôt (plus de renseignements dans la section suivante),  
- - Liens utiles : Une liste de ressources en ligne qui vous a été utile pour réussir ce projet. Cette liste doit être sous la même forme que la section [Liens utiles](#liens-utiles) de ce document.  
+ - Liens utiles : Une liste de ressources en ligne qui vous a été utile pour réaliser ce projet. Cette liste doit être sous la même forme que la section [Liens utiles](#liens-utiles) de ce document.  
 
 Les exécutables `minitrice` et `generator` doivent être présents à la racine de votre dépôt. Dans le cas où ces programmes sont générés, à la fin de leur génération, ces programmes doivent être présents à la racine de votre dépôt.
 
-Dans un dossier `results` à la racine de votre dépôt, vous stockerez les résultats de votre programme `minitrice` sur les fichiers contenu dans le dossier `test`. Les noms de fichiers contenant les résultats correspondront au nom de fichier d'origine suffixé par `-result`, par exemple `00-addition-result.txt`.
+Dans un dossier `results` à la racine de votre dépôt, vous stockerez les résultats de votre programme `minitrice` sur les fichiers contenus dans le dossier `test`. Les noms de fichiers contenant les résultats correspondront au nom de fichier d'origine suffixé par `-result`, par exemple `00-addition-result.txt`.
 
-**Date de rendu du projet** : Vous devez m'envoyer un mail contenant l'adresse URL de votre dépôt public GitHub avant jeudi 27 février 2025, 23h59. Vous perdrez un point par jour de retard.
+**Date de rendu du projet** : Vous devez m'envoyer un mail contenant l'adresse URL de votre dépôt public GitHub avant jeudi 26 février 2026, 23h59. Vous perdrez un point par jour de retard.
 
 Mon adresse mail : fabien.rozar@gmail.com
 
@@ -287,9 +287,8 @@ Assurez-vous que votre dépôt et votre vidéo sont accessibles par n'importe qu
  - Gestion et explication des erreurs gérées par `generator` : 1 point **(bonus)**,
  - Exécution correcte de votre programme sur un grand fichier (environ 10000 lignes) qui n'est pas fournis : 1 point,
  - Chaque message commit doit avoir un sujet court (< 70 caractères) et doit décrire correctement le travail réaliser par le commit. Si votre décription est plus longue, utilisez le corps du message de commit : 2 points,
- - Votre historique de commit doit être similaire à l'historique produit par le [workshop 3](https://github.com/frozar/git-workshop-3/blob/main/img/historique-final.png) : 3 points,
+ - Votre historique de commit doit être similaire à l'historique produit par le [workshop 3](https://github.com/frozar/git-workshop-3/blob/main/img/historique-final.png) : 5 points,
  - Pour chaque progression sur votre projet, l'utilisation des *Pull Request* sur Github avec des descriptions explicites du contenu de la *Pull Request* : 3 points,
- - Création d'un Github Actions pour automatiser les tests de minitrice sur les fichiers de tests. Les tests doivent vérifier que le programme s'exécute correctement et que les résultats de calcul sont corrects : 2 point,
  - Publication de la vidéo générée par l'utilitaire [gource](https://gource.io/) correspondante à votre activité sur ce dépôt : 2 points.
 
 ## Astuces
